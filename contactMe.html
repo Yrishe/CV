@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <h1>Contact</h1>
@@ -17,12 +18,12 @@
     
 
     <form action="mailto:y.matheus.borges@gmail.com" method="post" enctype="text/plain">
-        <label>Your name:</label>
-        <input type="text" name="yourName" value=""><br>
-        <label>Your Email:</label>
-        <input type="email" name="yourEmail" value=""><br>
-        <label>Your Message:</label><br>
-        <textarea type="name" rows="8" cols="50"></textarea><br>
+        <label for="name">Your name:</label>
+        <input type="text" id="name" name="yourName" value=""><br>
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="yourEmail" value=""><br>
+        <label for="message">Your Message:</label><br>
+        <textarea type="name" id="message" rows="8" cols="50"></textarea><br>
         <input type="submit" name="yourMessage">
     </form>
 
